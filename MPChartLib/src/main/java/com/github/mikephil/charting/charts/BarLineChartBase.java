@@ -375,9 +375,9 @@ public abstract class BarLineChartBase<T extends BarLineScatterCandleBubbleData<
 
     protected void calculateLegendOffsets(RectF offsets) {
 
-        offsets.left = 0.f;
-        offsets.right = 0.f;
-        offsets.top = 0.f;
+        offsets.left = 10.f;
+        offsets.right = 10.f;
+        offsets.top = 10.f;
         offsets.bottom = 10.f;
 
         // setup offsets for legend
